@@ -1,0 +1,17 @@
+@media (max-width: 450px) {
+  .developedby {
+    display: none;
+  }
+  .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+  }
+}
+
+@media (min-width: 451px) {
+  .developedby {
+    display: block;
+  }
+}
