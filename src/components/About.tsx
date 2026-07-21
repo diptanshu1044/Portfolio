@@ -37,9 +37,9 @@ export function About() {
           ))}
           <div className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-line bg-line pt-0 sm:grid-cols-3">
             {[
-              ["10+", "Members mentored"],
-              ["180+", "Hackathon teams"],
-              ["End-to-end", "Delivery mindset"],
+              ["20+", "Production Features Shipped"],
+              ["5+", "Client Projects Delivered"],
+              ["Top 5", "Hackathon Finalist Out of 180+ teams"],
             ].map(([value, label]) => (
               <div key={label} className="bg-bg-elevated p-5 md:p-7">
                 <p className="display text-2xl text-accent md:text-3xl">{value}</p>
