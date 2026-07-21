@@ -62,10 +62,10 @@ export function Hero() {
           <motion.h1
             id="hero-heading"
             variants={reduce ? undefined : item}
-            className="display max-w-[11ch] text-[clamp(3.8rem,9vw,8.5rem)] text-ink"
+            className="display max-w-[18ch] text-[clamp(2.6rem,6.5vw,5.5rem)] text-ink"
           >
-            Building digital
-            <span className="block text-accent">systems that scale.</span>
+            I build scalable backend systems,{" "}
+            <span className="text-accent">modern web applications, and AI-powered products.</span>
           </motion.h1>
 
           <motion.div variants={reduce ? undefined : item} className="mt-8 grid max-w-3xl gap-6 md:grid-cols-[1fr_auto] md:items-end">
