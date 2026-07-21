@@ -6,7 +6,7 @@ export const site = {
   email: "diptanshubanerjee123@gmail.com",
   github: "https://github.com/diptanshu1044",
   linkedin: "https://linkedin.com/in/diptanshu1044",
-  resume: "/Diptanshu_Resume.pdf",
+  resume: "/Resume.pdf",
   url: "https://diptanshu.vercel.app",
 };
 
@@ -33,13 +33,13 @@ export const projects = [
     title: "MomGovAssistance",
     status: "Flagship",
     summary:
-      "A multi-portal government assistance platform for mothers — eligibility, documents, referrals, cases, and analytics — owned end-to-end from architecture to production ops.",
+      "A multi-portal government assistance platform for U.S. mothers — AI-powered eligibility, case management, referrals, documents, and analytics — serving 400+ government assistance programs in production.",
     narrative:
-      "Mother, Partner, and Admin portals share a rule engine and AI eligibility scanner (Claude) that filters hundreds of programs before calling the model. HIPAA-conscious document flows, organization management, case tracking, and RBAC keep sensitive workflows auditable. Query optimization, async processing, and AWS/SSL/DNS/CI/CD keep the system responsive under real administrative load.",
+      "Mother and Partner portals share a high-performance rule engine and AI eligibility scanner (Claude) that filters hundreds of programs before inference, reducing end-to-end scan time from 30+ seconds to under 2 seconds. Built the Partner Portal from scratch, modernized the existing Mother Portal, and implemented production features including organization management, RBAC, referrals, case tracking, document workflows, and analytics. Production deployments on AWS with PostgreSQL, Prisma, CI/CD, SSL, and DNS ensure reliable operation for real U.S. organizations and mothers.",
     outcomes: [
-      "End-to-end ownership: architecture → deploy → ops",
-      "AI + rule engine to cut eligibility noise before inference",
-      "Production hardening: AWS, SSL, DNS, CI/CD, server admin",
+      "Built the Partner Portal from scratch & modernized the Mother Portal",
+      "Optimized AI eligibility scans from 30+ sec → <2 sec",
+      "Production infrastructure: AWS, PostgreSQL, CI/CD, SSL, DNS",
     ],
     stack: [
       "React",

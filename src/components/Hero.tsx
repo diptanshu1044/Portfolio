@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { site } from "@/lib/content";
 
@@ -101,21 +102,29 @@ export function Hero() {
           className="relative mx-auto w-full max-w-md lg:ml-auto"
         >
           <motion.div
-            className="photo-placeholder glass aspect-[4/5] rounded-[2rem]"
+            className="photo-placeholder glass relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-line"
             animate={reduce ? undefined : { rotate: [1.5, -1, 1.5] }}
             transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
           >
+            <Image
+              src="/Profile_pic.png"
+              alt={`${site.name} — portrait`}
+              fill
+              priority
+              unoptimized
+              sizes="(max-width: 1024px) 80vw, 28rem"
+              className="object-cover object-[center_12%] scale-[1.08]"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-bg/70 via-transparent to-bg/10" />
             <div className="absolute inset-5 z-10 flex flex-col justify-between rounded-[1.4rem] border border-white/10 p-5">
-              <span className="font-mono text-[10px] uppercase tracking-[.2em] text-white/50">
-                Portrait placeholder / 01
+              <span className="font-mono text-[10px] uppercase tracking-[.2em] text-white/70">
+                Portrait / 01
               </span>
               <div>
                 <div className="mb-4 h-px w-full bg-white/15" />
-                <p className="text-sm text-white/55">Replace with your portrait</p>
+                <p className="text-sm text-white/80">{site.name}</p>
               </div>
             </div>
-            <div className="absolute left-1/2 top-1/2 h-32 w-32 -translate-x-1/2 -translate-y-1/2 rounded-full border border-accent/30" />
-            <div className="absolute left-1/2 top-1/2 h-52 w-52 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10" />
           </motion.div>
           <motion.div
             className="glass absolute -bottom-6 -left-6 rounded-2xl px-5 py-4"
