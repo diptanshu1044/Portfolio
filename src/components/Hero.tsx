@@ -70,10 +70,10 @@ export function Hero() {
 
           <motion.div variants={reduce ? undefined : item} className="mt-8 grid max-w-3xl gap-6 md:grid-cols-[1fr_auto] md:items-end">
             <p className="max-w-xl text-lg leading-relaxed text-ink-muted md:text-xl">
-              {site.name} — {site.tagline}
+              I&apos;m {site.name}, {site.tagline}
             </p>
             <p className="font-mono text-xs uppercase leading-relaxed tracking-[.16em] text-ink-soft">
-              {site.role} / AI
+              {site.role}
               <br />
               Dehradun, India
             </p>

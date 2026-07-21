@@ -1,8 +1,8 @@
 export const site = {
   name: "Diptanshu Banerjee",
-  role: "Full Stack Developer",
+  role: "Full-Stack Engineer",
   tagline:
-    "I design and ship scalable systems — backends, cloud, AI, and the interfaces that make them usable.",
+    "a Full-Stack Engineer specializing in backend systems, cloud infrastructure, and applied AI. I build production-ready software from architecture to deployment.",
   email: "diptanshubanerjee123@gmail.com",
   github: "https://github.com/diptanshu1044",
   linkedin: "https://linkedin.com/in/diptanshu1044",

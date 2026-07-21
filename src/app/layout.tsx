@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: `%s — ${site.name}`,
   },
   description:
-    "Full Stack Developer specializing in scalable web apps, backend systems, cloud infrastructure, realtime apps, and AI integrations. End-to-end ownership from architecture to production.",
+    "Full-Stack Engineer specializing in backend systems, cloud infrastructure, and applied AI. I build production-ready software from architecture to deployment.",
   metadataBase: new URL(site.url),
   openGraph: {
     title: `${site.name} — Full Stack Developer`,
