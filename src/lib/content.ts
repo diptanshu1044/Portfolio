@@ -22,8 +22,8 @@ export const about = {
   eyebrow: "Philosophy",
   headline: "Own the full lifecycle — not just the UI.",
   body: [
-    "I build products that need to hold up under real load: clean architecture, thoughtful APIs, production infrastructure, and interfaces that stay out of the way. Complex engineering problems are where I do my best work — system design, third-party integrations, real-time paths, and AI features that earn their place.",
-    "What sets my work apart is end-to-end ownership. From schema and auth to CI/CD, DNS, and monitoring, I stay with the stack until it ships and stays healthy. That same mindset drives freelancing, open work, and interview prep: build things that scale, then explain how and why.",
+    "I'm a full-stack engineer with a strong interest in backend systems, cloud infrastructure, and applied AI. I enjoy building production-ready software—from designing APIs and databases to deploying scalable applications and developing AI-powered products.",
+    "My experience includes building modern web applications, architecting backend services, fine-tuning LLMs with Hugging Face and PEFT (LoRA), integrating third-party platforms, and deploying applications on the cloud. I enjoy working across the entire stack and building systems that are reliable, maintainable, and thoughtfully engineered.",
   ],
 };
 
